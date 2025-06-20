@@ -1,1 +1,103 @@
 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR :
+[INFO] -------------------------------------------------------------
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[7,29] package com.atlassian.sal.api does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[8,26] package org.osgi.framework does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[9,41] package org.springframework.beans.factory does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[10,46] package org.springframework.context.annotation does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[11,46] package org.springframework.context.annotation does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[12,46] package org.springframework.context.annotation does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[17,2] cannot find symbol
+  symbol: class Configuration
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[18,2] cannot find symbol
+  symbol: class Import
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[27,12] cannot find symbol
+  symbol:   class ApplicationProperties
+  location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[32,48] cannot find symbol
+  symbol:   class ApplicationProperties
+  location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[38,12] cannot find symbol
+  symbol:   class FactoryBean
+  location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[38,24] cannot find symbol
+  symbol:   class ServiceRegistration
+  location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/impl/MyPluginComponentImpl.java:[3,29] package com.atlassian.sal.api does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/impl/MyPluginComponentImpl.java:[9,23] cannot find symbol
+  symbol:   class ApplicationProperties
+  location: class com.example.helloworld.impl.MyPluginComponentImpl
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/impl/MyPluginComponentImpl.java:[12,40] cannot find symbol
+  symbol:   class ApplicationProperties
+  location: class com.example.helloworld.impl.MyPluginComponentImpl
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[26,6] cannot find symbol
+  symbol:   class Bean
+  location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[31,6] cannot find symbol
+  symbol:   class Bean
+  location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[37,6] cannot find symbol
+  symbol:   class Bean
+  location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[28,34] cannot find symbol
+  symbol:   class ApplicationProperties
+  location: class com.example.helloworld.config.MyPluginJavaConfig
+[INFO] 19 errors
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.721 s
+[INFO] Finished at: 2025-06-20T11:00:42-05:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.14.0:compile (default-compile) on project helloworld: Compilation failure: Compilation failure:
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[7,29] package com.atlassian.sal.api does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[8,26] package org.osgi.framework does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[9,41] package org.springframework.beans.factory does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[10,46] package org.springframework.context.annotation does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[11,46] package org.springframework.context.annotation does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[12,46] package org.springframework.context.annotation does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[17,2] cannot find symbol
+[ERROR]   symbol: class Configuration
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[18,2] cannot find symbol
+[ERROR]   symbol: class Import
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[27,12] cannot find symbol
+[ERROR]   symbol:   class ApplicationProperties
+[ERROR]   location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[32,48] cannot find symbol
+[ERROR]   symbol:   class ApplicationProperties
+[ERROR]   location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[38,12] cannot find symbol
+[ERROR]   symbol:   class FactoryBean
+[ERROR]   location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[38,24] cannot find symbol
+[ERROR]   symbol:   class ServiceRegistration
+[ERROR]   location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/impl/MyPluginComponentImpl.java:[3,29] package com.atlassian.sal.api does not exist
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/impl/MyPluginComponentImpl.java:[9,23] cannot find symbol
+[ERROR]   symbol:   class ApplicationProperties
+[ERROR]   location: class com.example.helloworld.impl.MyPluginComponentImpl
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/impl/MyPluginComponentImpl.java:[12,40] cannot find symbol
+[ERROR]   symbol:   class ApplicationProperties
+[ERROR]   location: class com.example.helloworld.impl.MyPluginComponentImpl
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[26,6] cannot find symbol
+[ERROR]   symbol:   class Bean
+[ERROR]   location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[31,6] cannot find symbol
+[ERROR]   symbol:   class Bean
+[ERROR]   location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[37,6] cannot find symbol
+[ERROR]   symbol:   class Bean
+[ERROR]   location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] /home/ec2-user/helloworld/src/main/java/com/example/helloworld/config/MyPluginJavaConfig.java:[28,34] cannot find symbol
+[ERROR]   symbol:   class ApplicationProperties
+[ERROR]   location: class com.example.helloworld.config.MyPluginJavaConfig
+[ERROR] -> [Help 1]
+[ERROR]
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR]
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
